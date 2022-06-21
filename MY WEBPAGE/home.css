@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+.contain {
+  text-align: center;
+}
+.contain h1 {
+  background-color: rgba(137, 137, 201, 0.856);
+  color: rgb(255, 255, 255);
+  width: 100%;
+  padding: 20px;
+  font-size: 50px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.contain h2 {
+  background-color: rgba(110, 81, 81, 0.459);
+  width: 100%;
+  padding: 20px;
+}
+.cont {
+  background-color: rgb(8, 8, 8);
+  padding: 20px;
+  margin: 0%;
+}
+.cont a {
+  text-decoration: none;
+  margin: 10px;
+  color: rgba(126, 111, 26, 0.76);
+  padding: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
+.cont a:hover {
+  cursor: grab;
+  color: darkgreen;
+}
+body {
+  background-color: rgb(227 247 255);
+}
+.row {
+  display: flex;
+}
+.row h3 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+  font-size: 40px;
+  margin-left: 30px;
+  margin-top: 30px;
+  color: rgba(28, 180, 190, 0.767);
+}
+.row h2 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bolder;
+  font-size: 30px;
+  margin-left: 30px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  color: rgba(28, 180, 190, 0.767);
+}
+.row ul li {
+  list-style: none;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  margin-left: 40px;
+  margin-top: 5px;
+}
+.row p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  margin-top: 100px;
+}
+.row img {
+  height: 90%;
+  width: 60%;
+  margin-top: 50px;
+  margin-left: 40px;
+  border-radius: 300px;
+}
+.left {
+  flex: 40%;
+}
+.right {
+  flex: 60%;
+}
+@media screen and (max-width: 520px) {
+  .cont a {
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+    color: rgb(15, 15, 15);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(120, 38, 131);
+    margin: 0%;
+  }
+  .cont {
+    background-color: rgb(120, 38, 131);
+  }
+  .row {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(227 247 255);
+  }
+}
